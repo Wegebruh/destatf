@@ -237,10 +237,10 @@ a {
   cursor: pointer;
 }
 
-.card p {
+.card .card-text {
   text-align: center;
   font-family: var(--font-two);
-  font-size: var(--text-xs);
+  font-size: 0.9rem;
 }
 /* End of Gallery */
 
