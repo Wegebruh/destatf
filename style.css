@@ -232,7 +232,7 @@ a {
   color: #fcfcfc;
   margin-bottom: 0.5rem;
   cursor: pointer;
-  transition: all 1s;
+  transition: all 0.5s;
   border-radius: 15px;
 }
 
