@@ -236,6 +236,10 @@ a {
   border-radius: 15px;
 }
 
+.card img {
+  border-radius: 15px;
+}
+
 .card .card-text {
   text-align: center;
   font-family: var(--font-two);
