@@ -177,7 +177,8 @@ a {
 /* Hero End */
 
 /* Gallery */
-.gallery .pre-title {
+.gallery .pre-title,
+.portofolio .pre-title {
   margin: 0 auto;
   padding-top: 40px;
   text-align: center;
@@ -190,7 +191,8 @@ a {
   font-size: 1rem;
 }
 
-.gallery-title {
+.gallery-title,
+.portofolio-title {
   text-align: center;
   font-weight: 600;
   font-size: 2rem;
@@ -230,6 +232,8 @@ a {
   color: #fcfcfc;
   margin-bottom: 0.5rem;
   cursor: pointer;
+  transition: all 1s;
+  border-radius: 15px;
 }
 
 .card .card-text {
@@ -237,7 +241,32 @@ a {
   font-family: var(--font-two);
   font-size: 0.9rem;
 }
+
+.card:hover {
+  transform: scale(1.1);
+}
 /* End of Gallery */
+
+/* Portofolio */
+.portofolio {
+  padding: 5rem 5rem;
+  text-align: center;
+}
+
+.portfolio-tags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+.portfolio-tags div {
+  font-size: 1rem;
+  border: 1px solid;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}
+/* End of Portofolio */
 
 /* Closing */
 #closing {
