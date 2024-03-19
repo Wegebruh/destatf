@@ -44,6 +44,10 @@
     line-height: 2rem;
   }
 
+  .portofolio {
+   padding: 2rem 1rem;
+  }
+
   .closing-title {
     padding: 0 2rem;
     text-align: center;
@@ -152,7 +156,6 @@
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* padding-bottom: 10rem; */
   }
 
   .hero-right {
@@ -189,6 +192,10 @@
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5;
+  }
+
+  .portofolio {
+   padding: 2rem 1rem;
   }
 
   .closing-title {
