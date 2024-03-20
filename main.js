@@ -1,15 +1,20 @@
 const lenis = new Lenis();
 
-lenis.on('scroll', (e) => {
-  console.log(e);
-});
-
-function raf(time) {
+const raf = (time) => {
   lenis.raf(time);
   requestAnimationFrame(raf);
-}
+};
 
 requestAnimationFrame(raf);
+
+const scrollControl = (section) => {
+  if (desktop) {
+    lenis.scrollTo(section, {
+      lock: true,
+      force: true,
+    });
+  }
+};
 
 var typed = new Typed('.auto-type', {
   strings: ['Freelancer.'],
