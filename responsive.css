@@ -16,6 +16,10 @@
 
   .hero-right img {
     width: 70%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
   }
 
   .hero-name {
@@ -44,7 +48,7 @@
   }
 
   .portofolio {
-   padding: 2rem 1rem;
+    padding: 2rem 1rem;
   }
 
   .closing-title {
@@ -83,6 +87,14 @@
     padding: 0;
     margin-top: 10%;
     order: -1;
+  }
+
+  .hero-right img {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
   }
 
   .hero-name {
@@ -128,7 +140,7 @@
 /* Mobile */
 @media (max-width: 475px) {
   html {
-    font-size: 90%;
+    font-size: 85%;
   }
 
   .hero {
@@ -149,13 +161,13 @@
   .hero-left {
     justify-content: center;
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 4rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
   .hero-right {
-    margin-top: 30%;
+    margin-top: 5rem;
     order: -1;
   }
 
@@ -191,7 +203,7 @@
   }
 
   .portofolio {
-   padding: 2rem 1rem;
+    padding: 2rem 1rem;
   }
 
   .closing-title {
@@ -205,7 +217,7 @@
 
 @media (max-width: 320px) {
   html {
-    font-size: 70%;
+    font-size: 60%;
   }
 
   .hero {
@@ -226,13 +238,13 @@
   .hero-left {
     justify-content: center;
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 4rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
   .hero-right {
-    margin-top: 15%;
+    margin-top: 5rem;
     order: -1;
   }
 
